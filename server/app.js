@@ -1,7 +1,7 @@
 const express = require("express");
 
 const app = express();
-app.get("/", (req, res) => {
+app.get("/api/v1", (req, res) => {
   return res.json({
     success: true,
   });
